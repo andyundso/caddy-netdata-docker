@@ -24,7 +24,7 @@ COPY netdata.list /etc/apt/sources.list.d/netdata.list
 
 # Install Netdata
 RUN apt update && \
-  apt install -y netdata
+  apt install -y netdata=1.42.4
 
 # Copy Netdata config
 COPY netdata.conf /etc/netdata/netdata.conf
