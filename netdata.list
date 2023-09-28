@@ -1,0 +1,2 @@
+deb [signed-by=/etc/apt/keyrings/netdata_netdata-archive-keyring.gpg] https://packagecloud.io/netdata/netdata/debian bookworm main
+deb-src [signed-by=/etc/apt/keyrings/netdata_netdata-archive-keyring.gpg] https://packagecloud.io/netdata/netdata/debian bookworm main

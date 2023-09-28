@@ -1,0 +1,7 @@
+http://localhost:8080 {
+  basicauth {
+    admin $2a$14$mMYwGpJD7hm7MD0q40UupOMkcWfXsBHc3QgLGG6UpLRnIwz0wTMja
+  }
+
+  reverse_proxy 127.0.0.1:19999
+}
